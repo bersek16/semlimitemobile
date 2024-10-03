@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+   font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem
+  
+}
+
+header {
+  width: 43.0rem;
+  height: 67.9rem;
+  padding-bottom:  40px;
+  margin:  0 auto;
+
+}
+
+header h1, h2  {
+  padding: 0 5.5rem;
+}
+
+#button {
+  padding:  3.5rem 18.5rem;
+}
+header h1  {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3.2rem;
+    color: #B52184;
+    text-shadow: 6px 3px 5px rgb(193, 193, 193); 
+}
+header h2{
+
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2.0rem;
+  color: #312D64;
+  line-height: 1.0rem;
+  text-shadow: 6px 3px 5px rgb(193, 193, 193);
+}
+/* #imgman {
+  width: 37.0rem;
+  height: 36.4rem;
+} 
+*/
+main {
+  background-image: linear-gradient(to right , #343193, #302C63);
+
+}
+/*Tag utilizada para da bordas nas caixa do fundo azul.*/
+.remuve {
+  height: 1.5rem; 
+}
+  
+.notstop, .youruncle, .comebacke  {
+  width: 35.2rem;
+  height: 35.7rem;
+  border-radius: 1.9rem;
+  background-color: aliceblue;
+  box-shadow:   0px 15px 22px rgb(31, 27, 27);
+  margin:  4.9rem auto;
+}
+
+main  img {
+  width: 8.0rem;
+  height: 8.0rem;
+  margin: 2.6rem ;
+}
+
+main h2 {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: bold;
+  color: #B52184;
+  padding-left:  2.6rem;
+  padding-bottom: 1.9rem;
+}
+
+main p {
+  padding-left:  2.6rem;
+  width: 30.0rem;
+  height: 13.0rem;
+  text-align: left;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #312D64;
+}
+form {
+  min-height: 59.2rem;
+  max-width: 53.0rem;
+  border: solid 2px red;
+  
+}
+form input {
+  color: #312D64;
+}
+fieldset {
+  border: none;
+  
+}
+
+fieldset legend {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 4.0rem;
+  color: #B52184;
+  font-size: 2.2rem; /* autura do titulo Entre em contato */
+  padding: 7.8rem 3.7rem 4.3rem;
+}
+legend h2 {
+  padding: 0;
+}
+
+.input-wrapper input   {
+  width: 34.8rem;
+  height: 4.8rem;
+  border-radius: 1.2rem;
+  padding: 1.5rem ;
+
+  color: #302C63
+}
+.input-wrapper {
+  padding: 0 4.2rem 2.4rem 4.0rem ;
+  color: #312D64;
+}
+
+#feedback {
+  color: #312D64;
+  min-width: 34.8rem;
+  min-height: 12.6rem;
+  border-radius: 1.2rem;
+  resize: none;
+  padding: 1.5rem  ;
+}
+
+#enviar input {
+padding: 0.9rem 1.6rem 1.0rem;
+border-radius: 1.2rem;
+background-image: linear-gradient( to right , #343193, #302C63);  
+color: aliceblue;
+margin:  2.4rem 4.0rem;
+text-align: center;
+width: 15.1rem;
+height: 4.5rem;
+font-family: "Mulish", sans-serif;
+font-optical-sizing: auto;
+font-weight: 600;
+font-style: normal;
+}
+
+footer {
+
+  height: 6.6rem;
+  background-image: linear-gradient( to right , #343193, #302C63); 
+}
+footer img {
+  margin: 2.6rem auto 1.6rem 6.3rem;
+   
+}
+
+
+
